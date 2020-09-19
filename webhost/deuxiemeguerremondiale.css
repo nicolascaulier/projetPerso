@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('police/opensans-regular-webfont.woff2') format('woff2'),
+         url('police/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+p{
+    font-size:15px;
+    color:red;
+}
+
+html{
+    height: 100%;
+}
+body{
+    background-color:rgb(126, 128, 129);
+    color:rgb(19, 18, 18);
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    right: 0;
+}
+#banner{
+    background-image:url("img/debarquement1.jpg");
+    background-position:center;
+    background-size:cover;
+    height:650px;
+    width: 100%;
+    position: relative;
+     
+}
+
+#banner .content h1{
+    font-size: 75px;
+    padding-top: 150px;
+    text-align: center;
+    top: 150px;
+    left: 40px;
+    color: rgb(255, 251, 255);
+}
+
+.flex{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.flex2 {
+    display:flex;
+    justify-content: center;
+    
+}
+.flex2 div {
+    padding: 5px;
+}
+
+.flex a:hover{
+    background: rgb(11, 5, 29);
+    border: 1px solid rgb(68, 0, 255);
+    color: rgb(76, 0, 255);
+}
+
+section{
+    text-align: center;
+    right:0;
+    flex-direction: column;
+}
+
+
+h3 {
+    text-align: center;
+    color: black;
+    font-size: 40px;
+}
+.milieu {
+    margin: 10px auto 10px auto;
+}
+
+
+.flex div
+{
+  width: 350px;
+  height: 250px;
+  margin: 0px 20px 15px 20px;
+  border-radius: 5px 5px 5px 5px;
+  padding: 10px;
+  
+  
+}
+
+h2{
+    border:1px solid white;
+    padding:10px;
+    font-size:35px;
+    text-align: center;
+    color: rgb(63, 22, 66);
+}
+
+h2:hover {
+    background: rgb(11, 5, 29);
+    border: 1px solid rgb(68, 0, 255);
+    color: rgb(167, 164, 175);
+  }
+.scroll {
+    display: none;
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+}
+.lienretour {
+     font-size: 25px;
+     margin-top: 3vh;
+     margin-bottom: 3vh;
+     
+}
+
+footer p{
+    background-color: black;
+    height: 50px;
+    text-align: center;
+    color: white;
+    margin-top: 1vh;
+    padding-top: 1vh;
+}
+  

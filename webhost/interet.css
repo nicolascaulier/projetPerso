@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('police/opensans-regular-webfont.woff2') format('woff2'),
+         url('police/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+p{
+    font-size:15px;
+    color:red;
+}
+
+html{
+    height: 100%;
+}
+body{
+    background-color:rgb(42, 36, 77);
+    color:white;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    right: 0;
+}
+
+.flex a:hover {
+    background: rgb(11, 5, 29);
+    border: 1px solid rgb(68, 0, 255);
+    color: rgb(76, 0, 255);
+  }
+
+section{
+    text-align: center;
+    right:0;
+}
+
+h2{
+    border:1px solid white;
+    padding:10px;
+    font-size:35px;
+    text-align: center;
+    color: rgb(206, 203, 206);
+}
+
+h2:hover{
+    background: rgb(240, 236, 187);
+    border: 2px solid rgb(240, 236, 187);
+    color: rgb(76, 0, 255);
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.test{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.scroll{
+    display: none;
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+  }
+
+.copy{
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+footer{
+    background-color: black;
+    height: 50px;
+}
+  

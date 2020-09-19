@@ -1,0 +1,9 @@
+form {
+    margin-top: 20vh;
+}
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+}
