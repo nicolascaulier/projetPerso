@@ -53,7 +53,7 @@ function carousel()
     $str  .= "</ol>";
     $str  .= "<div class=\"carousel-inner\">";
     $str  .= "<div class=\"carousel-item active\">";
-    $str  .= "<img class=\"d-block w-100\" src=\"...\" alt=\"First slide\">";
+    $str  .= "<img class=\"d-block w-100\" src=\"test.jpg\" alt=\"First slide\">";
     $str  .= "</div>";
     $str  .= "<div class=\"carousel-item\">";
     $str  .= "<img class=\"d-block w-100\" src=\"...\" alt=\"Second slide\">";
