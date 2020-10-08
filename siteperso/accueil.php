@@ -1,28 +1,28 @@
 <?php
+
 include "header.php";
-entete();
+echo entete();
 include "navbar.php";
-nav();
-
-
-
-
-
-
+echo nav();
 
 ?>
+
 <body>
+
 <?php
 
 include "bodyaccueil.php";
-accueilbody();
+echo accueilbody();
 
 ?>
+
 <?php
 
 Include "footer.php";
-footer();
+echo footer();
+
 ?>
 
 </body>
+
 </html>
