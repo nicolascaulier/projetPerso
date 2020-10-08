@@ -8,14 +8,22 @@ echo nav();
 ?>
 
 <body>
-
+<div>
 <?php
 
-include "bodyaccueil.php";
+include_once "bodyaccueil.php";
+echo carousel();
+
+?>
+</div>
+<div>
+<?php
+
+
 echo accueilbody();
 
 ?>
-
+</div>
 <?php
 
 Include "footer.php";
