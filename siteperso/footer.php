@@ -22,9 +22,7 @@ $str .= "<div class=\"col-md-3 mb-md-0 mb-3\">\n";
     //<!-- Links -->
 $str .= "<h4 class=\"footer__title\">Socials</h4>\n";
 $str .= "<ul class=\"list-unstyled\">\n";
-$str .= "<li>\n";
-$str .= "<a href=\"#!\">Instagram</a>\n";
-$str .= "</li>\n";
+
 $str .= "<li>\n";
 $str .= "<a href=\"#!\">Facebook</a>\n";
 $str .= "</li>\n";

@@ -6,7 +6,7 @@ $str .=  "<html lang=\"fr\">";
 $str .=  "<head>";
 $str .=  "<meta charset=\"UTF-8\">";
 $str .=  "<meta name=\"viewport\">";
-$str .=  "content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">";
+$str .=  "<content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">";
 $str .=  "<meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">";
 $str .=  "<link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css\" integrity=\"sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z\" crossorigin=\"anonymous\">";
 $str .=  "<title>nicolas</title>";
