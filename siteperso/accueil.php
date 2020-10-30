@@ -8,7 +8,7 @@ echo nav();
 ?>
 
 <body>
-<div>
+<div class="">
 <?php
 
 include_once "bodyaccueil.php";
@@ -16,9 +16,8 @@ echo carousel();
 
 ?>
 </div>
-<div>
+<div class="body">
 <?php
-
 
 echo accueilbody();
 

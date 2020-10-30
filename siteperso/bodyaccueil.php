@@ -6,51 +6,15 @@ function accueilbody()
 $str = <<<RTY
 
     <div class="container">
-    <div class="row">
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6"><img src="test.jpg"></div>
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6"><img src="test.jpg"></div>
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6"><img src="test.jpg"></div>
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6"><img src="test.jpg"></div>
+    <div class="row m-4">
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6"><img src="test.jpg" width=100%; ><p class="text-center">Mon cv</p></div>
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6"><img src="test.jpg"width=100%; ><p class="text-center">Forum</p></div>
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6"><img src="test.jpg"width=100%; ><p>Loisir</p></div>
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6"><img src="test.jpg"width=100%; ><p>autres</p></div>
     </div>
 </div>
 RTY;
 
-/*
-$str ="<input class=\"\" type=\"search\" placeholder=\"Search\" aria-label=\"Search\">";
-
-
-$str .= "<div class=\"container\">";
-$str .= "<div class=\"row\">";
-$str .=  "<div class=\"col-sm-4\">";
-$str .=  "<img src=\"test.jpg\" width=250px;>";
-$str .=  "</div>";
-$str .=  "<div class=\"col-sm-4\">";
-$str .=  "<img src=\"test.jpg\" width=250px;>";
-$str .=  "</div>";
-$str .=  "<div class=\"col-sm-4\">";
-$str .=  "<img src=\"test.jpg\" width=250px;>";
-$str .=  "</div>";
-$str .=  "<div class=\"col-sm-4\">";
-$str .=  "<img src=\"test.jpg\" width=250px;>";
-$str .=  "</div>";
-$str .=  "<div class=\"col-sm-4\">";
-$str .=  "<img src=\"test.jpg\" width=250px;>";
-$str .=  "</div>";
-$str .=  "<div class=\"col-sm-4\">";
-$str .=  "<img src=\"test.jpg\" width=250px;>";
-$str .=  "</div>";
-$str .=  "<div class=\"col-sm-4\">";
-$str .=  "<img src=\"test.jpg\" width=250px;>";
-$str .=  "</div>";
-$str .=  "<div class=\"col-sm-4\">";
-$str .=  "<img src=\"test.jpg\" width=250px;>";
-$str .=  "</div>";
-$str .=  "<div class=\"col-sm-4\">";
-$str .=  "<img src=\"test.jpg\" width=250px;>";
-$str .=  "</div>";
-$str .=  "</div>";
-$str .=  "</div>";
-*/
 return $str;
 }
 
