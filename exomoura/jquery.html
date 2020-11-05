@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8" />
+      <title>Test jQuery</title>
+      <link rel="stylesheet" href="jquerrycss.css">
+   </head>
+   <body>
+   
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> <!-- jQuery est inclus ! -->
+  
+   </body>
+   <div>
+    <button>click</button>
+    <p>ok eazeeazfazg vos race,azzazae  la galere eazraztazta</p>
+    </div>
+    <!--<div class="uneDiv">
+       <img src="test2.jpg"/>
+       
+   </div>
+-->
+   
+       
+<!--        <script>
+    jQuery(document).ready(function(){
+        // Du code en jQuery va pouvoir être tapé ici !
+    });
+   
+    $(".uneDiv").hover(function(){
+ // Le code a exécuter !
+ alert('jQuery est prêt !');
+
+
+ $('img').on('click', 'p', function()
+ {
+    alert('Les paragraphes créés peuvent être cliqués !');
+ });
+
+
+ $('div').on('click','button', function(){
+    alert('Les paragraphes créés peuvent être cliqués !');
+
+});
+
+$('button').on('click.nom', function(){
+    alert('Premier évènement!');
+});
+
+$('button').on('click.prenom', function(){
+    alert('Second évènement !');
+});
+</script>
+
+$('button').trigger('click.nom');
+<s/cript> -->
+<script>
+/* $('p').css({
+
+    color : 'red', // couleur rouge
+    width : '300px', // largeur de 300px
+    height : '200px', // hauteur de 200px
+    marginLeft : '25px'
+  
+}); */
+/* console.log($('p').offset().left); // retourne la valeur "left" de l'élément (position absolue)
+
+console.log($('p').position().top); // retourne la valeur "top" de l'élément (position relative
+
+$('p').offset({
+    left : 30,
+    top : 200
+});
+
+$('p').position({
+    left : 200 
+});
+*/
+/* $('p').animate({
+    width : '20px',
+    fontSize : '30px', // ne pas oublier la syntaxe de l'identifiant !
+    marginTop : '50px'
+});
+$('p').animate({
+    width : '150px'
+}, 2000); // second exemple avec 1000ms (= 1s)
+$('p').animate({
+    width : '150px'
+}, function(){
+    alert('Animation terminée !');
+}); */
+/* $('p')
+    .animate({
+        width : '150px'
+    }, {
+        duration : 1000,
+        queue : true
+    })
+    .animate({
+        fontSize : '65px'
+    }, 1000); */
+
+    var request = new XMLHttpRequest();
+request.onreadystatechange = function() {
+    if (this.readyState == XMLHttpRequest.DONE && this.status == 200) {
+        var response = JSON.parse(this.responseText);
+        console.log(response);
+    }
+};
+request.open("GET", "https://www.prevision-meteo.ch/services/json/paris");
+request.send();
+    
+</script>
+
+</html>
+
+
